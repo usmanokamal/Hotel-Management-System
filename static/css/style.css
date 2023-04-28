@@ -1,0 +1,51 @@
+body {
+    background-color: #dae2d5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+  }
+  .form-control, .btn-submit {
+    background-color: #3c6866;
+    color: #fff;
+    font-weight: bold;
+  }
+  .btn-submit {
+    margin-top: 10px;
+  }
+  .btn-book, .btn-signin {
+    background-color: #3c6866;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .btn-guest, .btn-admin {
+    background-color: #3c6866;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sticky-footer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+
+  footer {
+    background-color: #3c6866;
+  }
+
+.footer {
+  flex-shrink: 0;
+}   
